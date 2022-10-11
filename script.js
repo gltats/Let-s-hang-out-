@@ -5,7 +5,7 @@ function yes()
 
 
 $(function() {
-    $(".nos").on({
+    $(".no").on({
       mouseover: function() {
         $(this).css({
           left: (Math.random() * 200) + "px",
