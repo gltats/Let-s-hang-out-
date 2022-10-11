@@ -75,6 +75,12 @@ button:hover {
   left:63%; top:370px;
 }
 
+.no:active
+{
+  color:crimson;
+  
+
+}
 
 
 .svg {
