@@ -1,6 +1,6 @@
 function yes()
 {
-    alert("Great! See you soon!><")
+    alert("😊Great! See you soon!😊")
 }
 
 
