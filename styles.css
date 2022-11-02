@@ -5,7 +5,7 @@
 
 body {
   font-family: "Playfair Display", serif;
-  color: #acaabe;
+  color: #595764;
   text-rendering: optimizeLegibility;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -55,6 +55,26 @@ button
 button:hover {
   box-shadow: rgba(163, 154, 235, 0.5) 0 1px 30px;
   transition-duration: .1s;
+}
+
+
+.underline-with-movement {
+  text-decoration: none;
+  background: 
+  linear-gradient(to right, rgb(209, 141, 192), rgb(216, 127, 194)),
+  linear-gradient(to right, rgb(209, 141, 192), rgb(200, 100, 175), rgb(158, 64, 187));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+.underline-with-movement:hover,
+.underline-with-movement:focus{
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+.underline-with-movement:visited {
+  color: var(--primary-color);
 }
 
 @media (min-width: 768px) {
